@@ -28,8 +28,8 @@ def create_character(character_name, strength, intelligence, charisma):
         return "The character should start with 7 points."
 
     result = character_name + "\n"
-    result += "STR " + full_dot*strength + empty_dot*(7-strength) + "\n"
-    result += "INT " + full_dot*intelligence + empty_dot*(7-intelligence) + "\n"
-    result += "CHA " + full_dot*charisma + empty_dot*(7-charisma)
+    result += "STR " + full_dot*strength + empty_dot*(10-strength) + "\n"
+    result += "INT " + full_dot*intelligence + empty_dot*(10-intelligence) + "\n"
+    result += "CHA " + full_dot*charisma + empty_dot*(10-charisma)
 
     return result
